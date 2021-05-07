@@ -1,4 +1,4 @@
 # Quickstart-Training
-# Use for training comments
 
+- Use for training comments
 - Need "A" Table for measurements
