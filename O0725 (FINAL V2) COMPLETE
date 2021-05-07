@@ -2,10 +2,10 @@
 O0725(TRAINING-QUICKSTART V4)
 (SOFTWARE VERSION V4A-R002-15.02.2021) 
 (COPYRIGHT BLUM-NOVOTEST USA ... 2021) 
- 
- 
 
- 
+(RUN THE PROGRAM COMPLETELY THROUGH ONE TIME)
+(TO ENSURE THAT WCS ARE SET CORRECTLY)
+
 IF[#1EQ1]GOTO100(Single axis & re-position)
 IF[#1EQ2]GOTO200(Corner 2 axis & re-position)
 IF[#1EQ3]GOTO300(Corner 3 axis & re-position)
@@ -16,7 +16,6 @@ IF[#1EQ7]GOTO700(Outside diameter 3-point & re-position)
 IF[#1EQ8]GOTO800(Inside width & re-position) 
 IF[#1EQ9]GOTO900(Outside width & re-position)
 IF[#1EQ10]GOTO1000(Inside width with obstacle & re-position) 
-IF[#1EQ11]GOTO1100(CLOSING BLOCK)
  
 M00
 (JOG THE PROBE 10MM ABOVE PART ZERO) 
