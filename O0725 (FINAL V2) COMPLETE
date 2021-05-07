@@ -162,9 +162,7 @@ G90G00X0.Y0.Z10.
 IF[#1GT0]GOTO99
  
 M00
- 
-
- 
+  
 (---------CLOSING BLOCKS---------) 
 N99
 M30
